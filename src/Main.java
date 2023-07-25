@@ -32,7 +32,7 @@ public class Main {
             else {
                 while (calculateScore(computerCards) < 17) computerCards.add(dealCards());
                 System.out.println("Computer cards:" + computerCards);
-                compare(computerCards,userCards);
+                compare(userCards,computerCards);
             }
             System.out.println("Restart game?:(y/n)");
             String nextGame = scanner.nextLine();
